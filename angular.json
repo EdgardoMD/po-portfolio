@@ -39,7 +39,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/po-portfolio",
+            "outputPath": "dist/po-portfolio/browser",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -56,6 +56,9 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+    "         includePaths": ["src"]
+            },
             "scripts": [],
             "server": "src/main.server.ts",
             "security": {
