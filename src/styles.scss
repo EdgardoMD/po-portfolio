@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@use './styles/variables';
+@use './styles/base';
+@use './styles/typography';
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap');
